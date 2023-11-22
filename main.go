@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	const name, age = "James", 33
+	var card string = "Diamon of hear"
+	card = "Ace of space"
 
-	fmt.Printf("%s oi  %d", name, age)
+	cardnew := "Ace of space from cardnew"
+
+	print(card)
+
+	print(cardnew)
+
 }
